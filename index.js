@@ -25,7 +25,7 @@
 
 let countEl = document.getElementById("count-el")
 
-console.log(countEl)
+
 
 let count = 0
 
@@ -36,7 +36,7 @@ function increment() {
 
 let saveEl = document.getElementById("save-el")
 
-console.log(saveEl)
+
 
 function save() {
     saveEl.innerText += (" ") + count + (" - ")
